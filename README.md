@@ -6,6 +6,7 @@ Construct a data pipeline capable of normalising and storing data in AWS (Amazon
 - Code should be written in Python
 - Data should be normalised as much as possible
 - Data processing should be triggered by AWS S3 event notifications. More info can be found [here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/NotificationHowTo.html).
+- Data processing should be done utilising AWS [Lambda Function](https://aws.amazon.com/lambda/)
 - Final data should be stored on AWS S3 or one of the AWS databases ([RDS](https://aws.amazon.com/free/database/), [DynamoDB](https://aws.amazon.com/dynamodb) etc.)
 - At least one unit test should be created
 
