@@ -10,7 +10,8 @@ Construct a data pipeline capable of normalising and storing data in AWS (Amazon
 - At least one unit test should be created
 
 ## Data
-- Dataset is an open data subset from https://opendata.rdw.nl/Voertuigen/Open-Data-RDW-Gekentekende_voertuigen/m9d7-ebf2/data
+- You can find dataset in data directory as `Open_DataRDW.csv` file 
+- Dataset is an open data subset from https://opendata.rdw.nl/Voertuigen. You do not have to download data from there as it is already in repo.
 - First row of a dataset is a header
 
 ## Data processing & normalisation
@@ -25,6 +26,6 @@ Construct a data pipeline capable of normalising and storing data in AWS (Amazon
 
 ## Hints and suggestions
 - [AWS Free Tier](https://aws.amazon.com/free/) should be sufficient enough for all necessary work 
-- AWS resources creation such as [Lambda Function](https://aws.amazon.com/lambda/) and S3 events can be either created manually, or deployed frameworks such as [Serverless](https://www.serverless.com/). Please note, setting up is considerable work at first
+- AWS resources creation such as [Lambda Function](https://aws.amazon.com/lambda/) and S3 events can be either created manually, or deployed frameworks such as [Serverless](https://www.serverless.com/). Please note, setting serverless framework up is considerable work at first
 - The easiest approach is by using AWS console and supplied examples
 - To imitate a new S3 object, you may upload new file by hand and then use `s3:ObjectCreated:*` event notifaction to trigger AWS Lambda
