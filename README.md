@@ -22,7 +22,7 @@ Construct a data pipeline capable of normalising and storing data in AWS (Amazon
 
 
 ## Submitting work
-- Code should be shared with [@smagu](https://github.com/smagu) as collaborator on private repository when it is ready for a review
+- Code should be shared with [@smagu](https://github.com/smagu) and [@Kontuzijus](https://github.com/Kontuzijus) as collaborators on private repository when it is ready for a review
 - Any explanations should be written either in README.md or within the code as comments
 
 ## Hints and suggestions
